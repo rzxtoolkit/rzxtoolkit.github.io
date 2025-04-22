@@ -4,48 +4,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RZX TOOLKIT VIP</title>
   <style>
+    :root {
+      --primary: #38bdf8;
+      --background: #0f172a;
+      --container: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+    }
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #0f172a;
-      color: #fff;
+      background: var(--background);
+      color: var(--text);
     }
     header {
-      background: #1e293b;
-      padding: 20px;
+      background: var(--container);
+      padding: 40px 20px;
       text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     }
     header h1 {
-      margin: 0;
-      font-size: 36px;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 18px;
+      color: var(--muted);
     }
     .container {
-      max-width: 1000px;
+      max-width: 900px;
       margin: auto;
-      padding: 30px;
+      padding: 40px 20px;
     }
     .section {
-      margin-bottom: 40px;
+      margin-bottom: 50px;
     }
     .section h2 {
-      font-size: 28px;
-      border-bottom: 2px solid #38bdf8;
-      padding-bottom: 10px;
-      margin-bottom: 20px;
+      font-size: 26px;
+      margin-bottom: 15px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 5px;
     }
-    .section p {
-      font-size: 18px;
-      line-height: 1.6;
-      color: #cbd5e1;
+    .section p,
+    .section ul,
+    .section pre {
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--text);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    pre {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      overflow-x: auto;
     }
     .download {
       text-align: center;
-      margin-top: 40px;
+      margin-top: 30px;
     }
     .download a {
+      display: inline-block;
       padding: 15px 35px;
-      background-color: #38bdf8;
+      background: var(--primary);
       color: #000;
       font-size: 20px;
       font-weight: bold;
@@ -58,57 +82,109 @@
     }
     footer {
       text-align: center;
-      padding: 20px;
-      background-color: #1e293b;
+      padding: 25px;
+      background: var(--container);
       font-size: 14px;
-      color: #94a3b8;
+      color: var(--muted);
     }
   </style>
 </head>
 <body>
   <header>
     <h1>RZX TOOLKIT VIP</h1>
-    <p>Solusi Non-Root ADB Toolkit Terbaik untuk Android</p>
+    <p>Toolkit ADB Non-Root Terbaik untuk Meningkatkan Performa & Jaringan Android</p>
   </header>  <div class="container">
     <div class="section">
-      <h2>Apa itu RZX Toolkit?</h2>
-      <p>RZX Toolkit VIP adalah toolkit berbasis ADB (Android Debug Bridge) yang bekerja tanpa root. Dirancang untuk meningkatkan performa, jaringan, dan sistem Android Anda hanya dengan beberapa klik saja. Cocok untuk teknisi, gamer, dan pengguna yang ingin HP-nya maksimal tanpa perlu root atau ubahan berat.</p>
+      <h2>Tentang RZX Toolkit</h2>
+      <p>RZX Toolkit VIP adalah software berbasis ADB yang digunakan untuk meningkatkan performa, jaringan, dan kestabilan sistem Android tanpa perlu akses root. Cocok digunakan oleh teknisi, gamer, maupun pengguna biasa yang ingin membuat HP-nya lebih cepat dan stabil.</p>
     </div><div class="section">
   <h2>Fitur Utama</h2>
-  <p>
-    - BOOST ANDROID: Matikan animasi & optimasi sistem<br/>
-    - GAME MODE: Maksimalkan FPS & performa saat main<br/>
-    - BOOST JARINGAN: Perkuat koneksi tanpa ubah DNS<br/>
-    - SAFE MODE: Atur sistem agar lebih stabil & adem<br/>
-    - DETEKSI APLIKASI IKLAN: Bersihkan iklan tersembunyi<br/>
-    - AI DETECTOR: Deteksi masalah perangkat secara otomatis<br/>
-    - RESET LAG & DROP: Kembalikan sistem ke performa optimal<br/>
-    - DAN MASIH BANYAK LAGI...
-  </p>
+  <ul>
+    <li>BOOST ANDROID – Matikan animasi & percepat sistem</li>
+    <li>GAME MODE – Naikkan FPS & performa gaming</li>
+    <li>BOOST JARINGAN – Optimasi jaringan tanpa ubah DNS</li>
+    <li>SAFE MODE – Mode aman untuk stabilisasi sistem</li>
+    <li>AI DETECTOR – Deteksi & analisa masalah HP otomatis</li>
+    <li>HAPUS APLIKASI IKLAN – Bersihkan adware tersembunyi</li>
+    <li>RESET LAG & DROP – Kembalikan sistem ke performa optimal</li>
+    <li>Dan banyak fitur lanjutan lainnya…</li>
+  </ul>
 </div>
 
 <div class="section">
-  <h2>Cara Kerja</h2>
-  <p>Toolkit ini berjalan di Windows dan menggunakan perintah ADB yang dikirim ke Android Anda. Selama USB Debugging aktif dan HP terhubung ke PC, semua fitur bisa dijalankan dengan cepat dan aman. Tidak ada modifikasi sistem atau root yang dilakukan.</p>
-</div>
+  <h2>Panduan Pemakaian</h2>
+  <pre>
+
+Syarat Penggunaan:
+
+1. Install ADB (Android Debug Bridge) di PC
+
+
+2. Aktifkan "USB Debugging" di HP
+
+
+3. Sambungkan HP ke PC via USB
+
+
+4. Izinkan akses debugging jika muncul pop-up di HP
+
+
+
+SETTINGAN OPSI PENGEMBANG:
+
+Aktifkan Developer Options:
+
+> Pengaturan > Tentang Ponsel > Tap 7x di Build Number
+
+
+
+Masuk ke Developer Options, aktifkan: [✓] USB Debugging [✓] Stay Awake saat charging [✓] Enable OEM Unlocking [✓] USB Debugging (Security Settings) [✓] Install via USB (khusus Realme/Oppo) [✓] Revoke All Debug Authorizations > Izinkan ulang saat colok ulang [✓] Wireless Debugging (opsional) [✓] Logger buffer sizes → 4MB+ (opsional)
+
+NONAKTIFKAN: [✗] MIUI Optimization (Redmi/Xiaomi) [✗] Disable Permission Monitoring [✗] Don't Keep Activities
+
+Mode USB: Transfer File (MTP)
+
+
+CEK KONEKSI:
+
+> Buka CMD > ketik: adb devices Muncul "device" = Siap Pakai Muncul "unauthorized" = Belum izinkan di HP </pre> </div>
+
+
 
 <div class="section">
-  <h2>Kelebihan</h2>
-  <p>
-    - Tanpa root<br/>
-    - Tidak merusak garansi<br/>
-    - Bisa digunakan siapa saja<br/>
-    - Aman dan reversible (bisa dikembalikan ke default)<br/>
-    - Performa langsung terasa setelah pemakaian
-  </p>
-</div>
+  <h2>Cara Install ADB</h2>
+  <pre>
 
-<div class="download">
-  <a href="https://sfl.gl/DT9ut81" target="_blank">Download Sekarang</a>
-</div>
+1. Download ADB Platform Tools: https://developer.android.com/studio/releases/platform-tools
+
+
+2. Ekstrak ke folder: C:\adb
+
+
+3. Tambahkan PATH:
+
+Tekan Win+R > ketik: sysdm.cpl
+
+Advanced > Environment Variables > Path > Edit > New > C:\adb
+
+
+
+4. Cek:
+
+Buka CMD > ketik: adb version
+
+Muncul versi ADB = Sukses </pre>
+
+
+ </div> <div class="section">
+   <h2>Langkah Awal</h2>
+   <p>Setelah semua siap, langsung jalankan file <strong>RZX_TOOL.exe</strong>. Pastikan tampilan dua panel terbuka: sisi kiri berisi menu fitur, sisi kanan menampilkan respon dari perangkat Android yang terhubung.</p>
+ </div> <div class="download">
+   <a href="https://sfl.gl/DT9ut81" target="_blank">Download Toolkit Sekarang</a>
+ </div>
 
   </div>  <footer>
-    &copy; 2025 RZX Toolkit by Rizki Firmansah. All Rights Reserved.
+    &copy; 2025 RZX Toolkit by Rizki Firmansah. All rights reserved.
   </footer>
 </body>
 </html>
